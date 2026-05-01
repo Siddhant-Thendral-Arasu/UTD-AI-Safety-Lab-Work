@@ -119,8 +119,6 @@ plt.title("Empirical CDF of Entropy (OOD)")
 plt.legend()
 plt.grid()
 
-print("Okay...")
-
 save_path = f"entropy_cdf_graph.png"
 plt.savefig(save_path)
 print(f"Graph saved at: {save_path}")

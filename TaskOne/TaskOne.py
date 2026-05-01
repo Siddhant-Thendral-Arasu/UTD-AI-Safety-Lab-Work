@@ -238,4 +238,3 @@ with torch.no_grad():  # No gradient computation needed
             t_hitrate += hitrate
             run += 1
 print(f"Ade1: {t_ade1/run}, Ade5: {t_ade5/run}, Ade10: {t_ade10/run}, Ade15: {t_ade15/run}, Fde: {t_fde/run}, HitRate: {t_hitrate/run}")
-print("MISSION COMPLETE, GET TO THE BASE")
