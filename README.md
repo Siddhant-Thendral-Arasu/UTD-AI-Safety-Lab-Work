@@ -4,14 +4,16 @@
 AI safety research work associated with UTD, covering uncertainty estimation, out-of-distribution (OOD) detection, and trajectory prediction using deep learning.
 
 ## Structure
+```
 UTD-AI-SAFETY-LAB-WORK/
-- TaskOne/ (Trajectory prediction – nuScenes / CoverNet)
-- TaskTwo/ (Uncertainty estimation – MNIST / EMNIST, EDL)
-- DatasetCreation/ (Later CARLA dataset generation work)
-  - docker/ (CARLA + Jupyter environment)
-  - builderfiles/ (supporting scripts)
-  - *.py (data + training pipeline)
-  - *.ipynb (notebook workflows)
+├── TaskOne/ # Trajectory prediction (nuScenes / CoverNet)
+├── TaskTwo/ # Uncertainty estimation (MNIST / EMNIST, EDL)
+├── DatasetCreation/ # Later CARLA dataset generation work
+│ ├── docker/ # CARLA + Jupyter environment
+│ ├── builderfiles/ # Supporting scripts
+│ ├── *.py # Data + training pipeline
+│ └── *.ipynb # Notebook workflows
+```
 
 ## Dataset Pipeline (Reference)
 1. Rasterization – convert collected CARLA metadata into raster inputs  
